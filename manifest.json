@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Business Finder Plugin",
+  "description": "This extension will find this business near you",
+  "version": "1.16",
+  
+  "sandbox": {
+    "pages": ["sandbox.html" ]
+  },
+
+  "browser_action": {
+   "default_icon": "icon.jpg",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
